@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "token": "123456789ABCD",
+      "name": "Raquel",
+      "surname": "Gonzalez",
+      "age": "24",
+      "email": "raquel@raquel",
+      "password": "jsdaiudnbel",
+      "id": 1,
+      "rol": true
+    },
+    {
+      "token": "123456789ABCD",
+      "name": "David",
+      "surname": "Torrado",
+      "email": "david@david.com",
+      "password": "Aa1234567",
+      "age": "27",
+      "id": "2",
+      "rol": false
+    },
+    {
+      "token": "123456789ABCD",
+      "id": "8",
+      "name": "Pepe",
+      "surname": "Rodriguez",
+      "email": "pepe@pepe.com",
+      "password": "123456789",
+      "age": "58",
+      "rol": false
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 4,
+      "product_id": 2,
+      "date": "20/07/2023",
+      "rol": true
+    },
+    {
+      "id": 2,
+      "user_id": 20,
+      "product_id": 1,
+      "date": "20/07/2023",
+      "rol": false
+    },
+    {
+      "id": 3,
+      "user_id": 20,
+      "product_id": 1,
+      "date": "20/07/2023",
+      "rol": false
+    },
+    {
+      "id": 5,
+      "user_id": 20,
+      "product_id": 2,
+      "date": "20/07/2023",
+      "rol": false
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
